@@ -640,3 +640,64 @@ section{
     }
 
 }
+
+
+
+
+
+
+/* Style for the quiz container */
+.quiz-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  /* Style for the quiz title */
+.quiz-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the quiz question */
+#quiz {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the quiz options */
+.quiz-options label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+.quiz-options input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  /* Style for the quiz submit button */
+.quiz-submit {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  /* Style for the quiz result message */
+.quiz-result {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
